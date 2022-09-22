@@ -13,40 +13,6 @@ import org.testng.annotations.Test;
 
 public class TestClass1 {
 
-	@BeforeSuite
-	public void beforeSuite() {
-		System.out.println("Before Suite TestClass 1 ");
-	}
-	
-	@BeforeTest 
-	public void beforeTest() {
-		System.out.println("Before Test TestClass 1 ");
-	}
-	
-	@BeforeClass
-	public void beforeClass() {
-		System.out.println("Before Class TestClass 1 ");
-	}
-	
-	@BeforeMethod
-	public void beforeMethod() {
-		System.out.println("Before Method TestClass 1");
-	}
-	
-	@Test 
-	public void test1() {
-		System.out.println("Test 1 TestClass 1");
-	}
-	
-	@Test 
-	public void test2() {
-		System.out.println("Test 2 TestClass 1");
-	}
-	
-	@Test 
-	public void test3() {
-		System.out.println("Test 3 TestClass 1");
-	}
 	
 	
 	public void test4() {
