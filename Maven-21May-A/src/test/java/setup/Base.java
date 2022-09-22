@@ -25,16 +25,16 @@ public class Base {
 		return driver ;
 	}
 	
-	public static WebDriver openIEBrowser() {
-		System.setProperty("webdriver.ie.driver", "C:\\Users\\akash\\OneDrive\\Documents\\Automation\\Selenium\\opreadriver.exe");
-		WebDriver driver = new OperaDriver();
-		return driver ;
-	}
-	
-	public static WebDriver openEdgeBrowser() {
-		System.setProperty("webdriver.Edge.driver", "C:\\Users\\akash\\OneDrive\\Documents\\Automation\\Selenium\\opreadriver.exe");
-		WebDriver driver = new OperaDriver();
-		return driver ;
-	
+//	public static WebDriver openIEBrowser() {
+//		System.setProperty("webdriver.ie.driver", "C:\\Users\\akash\\OneDrive\\Documents\\Automation\\Selenium\\opreadriver.exe");
+//		WebDriver driver = new OperaDriver();
+//		return driver ;
+//	}
+//	
+////	public static WebDriver openEdgeBrowser() {
+////		System.setProperty("webdriver.Edge.driver", "C:\\Users\\akash\\OneDrive\\Documents\\Automation\\Selenium\\opreadriver.exe");
+////		WebDriver driver = new OperaDriver();
+////		return driver ;
+////	}
 	
 }
